@@ -1,0 +1,10 @@
+﻿  containers.cpp
+  Создание кода...
+  Пропуск... (изменения не обнаружены)
+  main.cpp
+main.obj : error LNK2005: "public: virtual void __thiscall simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UAEXAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+boxes.obj : error LNK2005: "public: virtual void __thiscall simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UAEXAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+shapes.obj : error LNK2005: "public: virtual void __thiscall simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UAEXAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+shares.obj : error LNK2005: "public: virtual void __thiscall simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UAEXAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall simple_shapes::container::Out(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?Out@container@simple_shapes@@QAEXAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) в функции _main
+C:\Users\Sultan.off\Desktop\Матковский\2.4\1.2 laba - oop\Debug\1.2 laba - oop.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
