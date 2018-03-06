@@ -13,7 +13,18 @@ namespace simple_shapes {
 		void Out(ofstream &ofst);    // вывод 
 		void Clear();  // очистка контейнера от фигур
 		container();    // инициализация контейнера
-		~container() { Clear(); } // утилизация контейнера
+		} // утилизация контейнера
+	};
+		//------
+		void V(ofstream &ofst); // вывод объема
+		//------
+
+		void Sort();   // сортировка контейнера
+	    //------
+
+		void Clear();  // очистка контейнера от фигур
+		container();    // инициализация контейнера
+		 // утилизация контейнера
 	};
 } // end simple_shapes namespace
 #endif

@@ -7,21 +7,24 @@ namespace simple_shapes {
 	//  ласс, обобщающает все имеющиес€ фигуры.
 	// явл€етс€ абстрактным, обеспечива€, тем самым, 
 	// проверку интерфейса 
-
 	class shape 
 	{
 		int temp;
-
+	class shape {
 	public:
 		// иденитфикаци€, порождение и ввод фигуры из пото-ка
 		static  shape* In(ifstream &ifst);
 		virtual void InData(ifstream &ifst) = 0;  // ввод
 		virtual void Out(ofstream &ofst) = 0;     // вывод
-
 	};
 
 	protected:
 		shape() {};
+		//-------
+		virtual double V() = 0; // вычисление объема
+		//-------
+		bool Compare(shape &other);
+		//-------
 	};
 } // end simple_shapes namespace
 #endif

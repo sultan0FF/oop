@@ -22,15 +22,18 @@ namespace simple_shapes {
 		ofst << "Melting point = " << temp << " ∞C " << endl;
 	}
 
+using namespace std;
+#include "shape_atd.h"
+
+namespace simple_shapes {
 	// ¬вод параметров обобщенной фигуры 
 	shape* shape::In(ifstream &ifst) {
 		shape *sp;
 		int k;
 		ifst >> k;
+		
 		switch (k) 
 		{
-
-		switch (k) {
 		case 1:
 			sp = new box;
 			break;
@@ -46,5 +49,12 @@ namespace simple_shapes {
 		sp->InData(ifst);
 		return sp;
 	}
+
+
+
+	bool shape::Compare(shape &other) {
+		return V() < other.V();
+	}
+
 } // end simple_shapes namespace
 
