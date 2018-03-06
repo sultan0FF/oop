@@ -114,9 +114,12 @@
     <ClInclude Include="box_atd.h" />
     <ClInclude Include="shape_atd.h" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClInclude Include="tetraidr_atd.h" />
 >>>>>>> 2-1
+=======
+>>>>>>> 2-3
     <ClInclude Include="share_atd.h" />
   </ItemGroup>
   <ItemGroup>
@@ -125,9 +128,12 @@
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClCompile Include="tetraidr.cpp" />
 >>>>>>> 2-1
+=======
+>>>>>>> 2-3
     <ClCompile Include="shares.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,10 +4,24 @@
 #include "box_atd.h"
 #include "share_atd.h"
 #include "tetraidr_atd.h"
-using namespace std;
 #include "shape_atd.h"
+using namespace std;
+
 
 namespace simple_shapes {
+
+	//----------------------------------------------------
+	// Ввод параметров фигуры
+	void shape::InData(ifstream &ifst) {
+		ifst >> temp;
+	}
+
+	//----------------------------------------------------
+	// Вывод параметров фигуры
+	void shape::Out(ofstream &ofst) {
+		ofst << "Melting point = " << temp << " °C " << endl;
+	}
+
 	// Ввод параметров обобщенной фигуры 
 	shape* shape::In(ifstream &ifst) {
 		shape *sp;
@@ -15,6 +29,7 @@ namespace simple_shapes {
 		ifst >> k;
 		switch (k) 
 		{
+
 		switch (k) {
 		case 1:
 			sp = new box;

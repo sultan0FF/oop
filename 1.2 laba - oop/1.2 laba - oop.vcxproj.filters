@@ -22,11 +22,14 @@
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClInclude Include="tetraidr_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
 >>>>>>> 2-1
+=======
+>>>>>>> 2-3
     <ClInclude Include="box_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -45,11 +48,14 @@
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClCompile Include="tetraidr.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
 >>>>>>> 2-1
+=======
+>>>>>>> 2-3
     <ClCompile Include="boxes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
