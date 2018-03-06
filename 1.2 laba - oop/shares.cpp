@@ -19,4 +19,10 @@ namespace simple_shapes {
 		shape::Out(ofst);
 		ofst << endl;
 	}
+	}
+	void share::OutShare(ofstream &ofst) 
+	{
+		Out(ofst);
+	}
+
 } // end simple_shapes namespace

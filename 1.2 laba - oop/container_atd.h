@@ -11,20 +11,15 @@ namespace simple_shapes {
 	public:
 		void In(ifstream &ifst);     // ввод 
 		void Out(ofstream &ofst);    // вывод 
-		void Clear();  // очистка контейнера от фигур
-		container();    // инициализация контейнера
-		} // утилизация контейнера
-	};
 		//------
 		void V(ofstream &ofst); // вывод объема
 		//------
-
 		void Sort();   // сортировка контейнера
 	    //------
-
+		void OutShare(ofstream &ofst);
 		void Clear();  // очистка контейнера от фигур
 		container();    // инициализация контейнера
-		 // утилизация контейнера
+		// утилизация контейнера
 	};
 } // end simple_shapes namespace
 #endif

@@ -1,4 +1,4 @@
-w#pragma once
+#pragma once
 #ifndef __share_atd__
 #define __share_atd__
 // Требуется описание класса shape
@@ -14,6 +14,8 @@ namespace simple_shapes {
 		//------
 		double V(); // вычисление объема
 		//------
+		void Out(ofstream &ofst);     // вывод
+		void OutShare(ofstream &ofst); // вывод только шаров
 		share() {} // создание без инициализации.
 	};
 } // end simple_shapes namespace

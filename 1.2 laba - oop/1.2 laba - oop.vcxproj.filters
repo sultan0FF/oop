@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClInclude Include="tetraidr_atd.h">
       <Filter>Заголовочные файлы</Filter>
@@ -36,6 +37,8 @@
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
 >>>>>>> 2-4
+=======
+>>>>>>> 2-5
     <ClInclude Include="box_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -56,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClCompile Include="tetraidr.cpp">
       <Filter>Файлы исходного кода</Filter>
@@ -68,12 +72,15 @@
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
 >>>>>>> 2-4
+=======
+>>>>>>> 2-5
     <ClCompile Include="boxes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="shares.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     <ClCompile Include="Vboxes.cpp">
@@ -86,5 +93,7 @@
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
 >>>>>>> 2-4
+=======
+>>>>>>> 2-5
   </ItemGroup>
 </Project>

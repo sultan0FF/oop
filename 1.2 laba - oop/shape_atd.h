@@ -9,7 +9,7 @@ namespace simple_shapes {
 	// проверку интерфейса 
 	class shape 
 	{
-		int temp;
+	int temp;
 	class shape {
 	public:
 		// иденитфикация, порождение и ввод фигуры из пото-ка
@@ -26,5 +26,11 @@ namespace simple_shapes {
 		bool Compare(shape &other);
 		//-------
 	};
+		virtual void OutShare(ofstream &ofst); // вывод только шаров
+	};
+	// Вывод данных только для прямоугольника
+		void shape::OutShare(ofstream &ofst) {
+			ofst << endl;  // пустая строка
+		}
 } // end simple_shapes namespace
 #endif

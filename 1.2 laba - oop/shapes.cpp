@@ -3,6 +3,7 @@
 // геометрических фигурах
 #include "box_atd.h"
 #include "share_atd.h"
+<<<<<<< HEAD
 #include "tetraidr_atd.h"
 #include "shape_atd.h"
 using namespace std;
@@ -31,7 +32,6 @@ namespace simple_shapes {
 		shape *sp;
 		int k;
 		ifst >> k;
-		
 		switch (k) 
 		{
 		case 1:
@@ -49,12 +49,8 @@ namespace simple_shapes {
 		sp->InData(ifst);
 		return sp;
 	}
-
-
-
 	bool shape::Compare(shape &other) {
 		return V() < other.V();
 	}
-
 } // end simple_shapes namespace
 

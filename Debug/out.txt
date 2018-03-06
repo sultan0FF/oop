@@ -1,10 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Container contents 9 elements.
 =======
 Container contents 12 elements.
 >>>>>>> 2-1
+=======
+Container contents 9 elements.
+>>>>>>> 2-5
 0: It is Box: x = 6, y = 8, z = 10
 1: It is Sphere: r = 49
 2: It is Box: x = 15, y = 18, z = 25
@@ -14,6 +18,7 @@ Container contents 12 elements.
 6: It is Box: x = 11, y = 17, z = 21
 7: It is Box: x = 99, y = 78, z = 12
 8: It is Sphere: r = 176
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 9: It is Tetraidr: r = 13
@@ -91,3 +96,5 @@ V = 3542.94
 V = 22500
 >>>>>>> 2-2
 >>>>>>> 2-4
+=======
+>>>>>>> 2-5

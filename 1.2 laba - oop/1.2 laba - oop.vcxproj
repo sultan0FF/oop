@@ -116,6 +116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClInclude Include="tetraidr_atd.h" />
 >>>>>>> 2-1
@@ -124,6 +125,8 @@
 =======
     <ClInclude Include="tetraidr_atd.h" />
 >>>>>>> 2-4
+=======
+>>>>>>> 2-5
     <ClInclude Include="share_atd.h" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +134,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +151,9 @@
     <ClCompile Include="Vshare.cpp" />
     <ClCompile Include="Vtetra.cpp" />
 >>>>>>> 2-4
+=======
+    <ClCompile Include="shares.cpp" />
+>>>>>>> 2-5
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
