@@ -1,8 +1,17 @@
 ﻿  shares.cpp
+<<<<<<< HEAD
+=======
+  tetraidr.cpp
+>>>>>>> 2-1
   shapes.cpp
   boxes.cpp
   main.cpp
   containers.cpp
   Создание кода...
+<<<<<<< HEAD
   1.2 laba - oop.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\1\1.2 laba - oop\Debug\1.2 laba - oop.exe
   1.2 laba - oop.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\1\1.2 laba - oop\Debug\1.2 laba - oop.pdb (Partial PDB)
+=======
+  1.2 laba - oop.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\2.1\1.2 laba - oop\Debug\1.2 laba - oop.exe
+  1.2 laba - oop.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\2.1\1.2 laba - oop\Debug\1.2 laba - oop.pdb (Partial PDB)
+>>>>>>> 2-1

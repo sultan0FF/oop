@@ -21,6 +21,12 @@
     <ClInclude Include="shape_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="tetraidr_atd.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+>>>>>>> 2-1
     <ClInclude Include="box_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -38,6 +44,12 @@
     <ClCompile Include="shapes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="tetraidr.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+>>>>>>> 2-1
     <ClCompile Include="boxes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
