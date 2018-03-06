@@ -1,0 +1,31 @@
+Container contents 15 elements.
+0: It is Box: x = 6, y = 8, z = 10
+V = 480
+1: It is Sphere: r = 49
+V = 492557
+2: It is Box: x = 15, y = 18, z = 25
+V = 6750
+3: It is Sphere: r = 11
+V = 5572.45
+4: It is Box: x = 7, y = 8, z = 5
+V = 280
+5: It is Sphere: r = 22
+V = 44579.6
+6: It is Box: x = 11, y = 17, z = 21
+V = 3927
+7: It is Box: x = 99, y = 78, z = 12
+V = 92664
+8: It is Sphere: r = 176
+V = 2.28248e+07
+9: It is Tetraidr: r = 13
+V = 395.46
+10: It is Tetraidr: r = 11
+V = 239.58
+11: It is Box: x = 1, y = 2, z = 3
+V = 6
+12: It is Tetraidr: r = 3
+V = 4.86
+13: It is Tetraidr: r = 27
+V = 3542.94
+14: It is Tetraidr: r = 50
+V = 22500
