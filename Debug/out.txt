@@ -1,0 +1,21 @@
+Container contents 10 elements.
+0: It is Sphere: r = 176
+V = 2.28248e+07
+1: It is Sphere: r = 49
+V = 492557
+2: It is Box: x = 99, y = 78, z = 12
+V = 92664
+3: It is Sphere: r = 22
+V = 44579.6
+4: It is Box: x = 15, y = 18, z = 25
+V = 6750
+5: It is Sphere: r = 11
+V = 5572.45
+6: It is Box: x = 11, y = 17, z = 21
+V = 3927
+7: It is Box: x = 6, y = 8, z = 10
+V = 480
+8: It is Box: x = 7, y = 8, z = 5
+V = 280
+9: It is Box: x = 1, y = 2, z = 3
+V = 6
