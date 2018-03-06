@@ -18,6 +18,7 @@ namespace simple_shapes {
 			}
 		}
 	}
+
 	// Сортировка содержимого контейнера
 	void container::Sort() {
 		for (int i = 0; i < len - 1; i++) {
@@ -31,6 +32,7 @@ namespace simple_shapes {
 		}
 	}
 	
+
 
 	// Вывод содержимого контейнера
 	void container::Out(ofstream &ofst) 

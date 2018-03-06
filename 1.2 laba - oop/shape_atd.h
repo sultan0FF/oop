@@ -18,8 +18,6 @@ namespace simple_shapes {
 		//-------
 		bool Compare(shape &other);
 		//-------
-	
-
 	};
 } // end simple_shapes namespace
 #endif

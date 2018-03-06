@@ -31,8 +31,10 @@ namespace simple_shapes {
 		return sp;
 	}
 
+
 	bool shape::Compare(shape &other) {
 		return V() < other.V();
 	}
+
 } // end simple_shapes namespace
 
