@@ -1,5 +1,6 @@
 #include "tetraidr_atd.h"
 using namespace std;
+
 namespace simple_shapes {
 	// Ввод параметров тетраидра
 	void tetraidr::InData(ifstream &ifst) {

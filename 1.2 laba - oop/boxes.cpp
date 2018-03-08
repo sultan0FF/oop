@@ -1,5 +1,6 @@
 #include "box_atd.h"
 using namespace std;
+
 namespace simple_shapes {
 	// ¬вод параметров параллелепипеда
 	void box::InData(ifstream &ifst)

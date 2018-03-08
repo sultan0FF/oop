@@ -19,15 +19,7 @@ namespace simple_shapes {
 		}
 	}
 
-	// Вывод содержимого контейнера
-	void container::Out(ofstream &ofst) {
-		ofst << "Container contents " << len
-			<< " elements." << endl;
-		for (int i = 0; i < len; i++) {
-			ofst << i << ": ";
-			cont[i]->Out(ofst);
-
-	// Сортировка содержимого контейнера
+		// Сортировка содержимого контейнера
 	void container::Sort() {
 		for (int i = 0; i < len - 1; i++) {
 			for (int j = i + 1; j < len; j++) {
@@ -39,34 +31,25 @@ namespace simple_shapes {
 			}
 		}
 	}
-	
+
 	// Вывод содержимого контейнера
-	void container::Out(ofstream &ofst) 
+	void container::Out(ofstream &ofst)
 	{
 		ofst << "Container contents " << len
 			<< " elements." << endl;
-		for (int i = 0; i < len; i++) 
+		for (int i = 0; i < len; i++)
 		{
 			ofst << i << ": ";
 			cont[i]->Out(ofst);
-			ofst << "V = "<< cont[i]->V() << endl;
+			ofst << "V = " << cont[i]->V() << endl;
 		}
 	}
-	//void container::Out(ofstream &ofst) {
-	//	ofst << "Container contents " << len
-	//		<< " elements." << endl;
-	//	for (int i = 0; i < len; i++) {
-	//		ofst << i << ": ";
-	//		cont[i]->Out(ofst);
-	//	}
-	//}
-	// Вывод содержимого контейнера
-	void container::OutShare(ofstream &ofst) {
-		ofst << "Only shares." << endl;
-		for (int i = 0; i < len; i++) {
-			ofst << i << ": ";
-			cont[i]->OutShare(ofst);
-		}
-	}
-
+		//void container::Out(ofstream &ofst) {
+		//	ofst << "Container contents " << len
+		//		<< " elements." << endl;
+		//	for (int i = 0; i < len; i++) {
+		//		ofst << i << ": ";
+		//		cont[i]->Out(ofst);
+		//	}
+		//}
 } // end simple_shapes namespace

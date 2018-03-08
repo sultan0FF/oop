@@ -2,14 +2,7 @@
 #include <fstream>
 #include "container_atd.h"
 #include "shape_atd.h"
-//#include "containers.cpp"
 
-//namespace simple_shapes {
-//	// Сигнатуры требуемых внешних функций
-//	void Clear();
-//	void In(ifstream &ifst);
-//	void Out(ofstream &ofst);
-//}
 using namespace std;
 
 int main()
@@ -20,10 +13,19 @@ int main()
 	in.open("in.txt");
 	if (!in.is_open())
 	{
+		cout << "Ошибка, файл не найден";
+		return -1;
+	}
+	if (in.fail())
+	{
 		cout << "Ошибка с файлом";
 		return -1;
 	}
-
+	if (in.eof())
+	{
+		cout << "Ошибка, файл пуст";
+		return -1;
+	}
 	ofstream out;
 	out.open("out.txt");
 	if (!out.is_open())

@@ -11,10 +11,7 @@ namespace simple_shapes {
 		// переопределяем интерфейс класса
 		void InData(ifstream &ifst);  // ввод
 		void Out(ofstream &ofst);     // вывод 
-		//------
 		double V(); // вычисление объема
-		//------
-		void Out(ofstream &ofst);     // вывод
 		void OutShare(ofstream &ofst); // вывод только шаров
 		share() {} // создание без инициализации.
 	};

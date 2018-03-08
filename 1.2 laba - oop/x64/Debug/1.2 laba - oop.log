@@ -1,12 +1,12 @@
-﻿  Vtetra.cpp
-  Vshare.cpp
-  Vboxes.cpp
-  shares.cpp
-  tetraidr.cpp
-  shapes.cpp
-  boxes.cpp
+﻿  shares.cpp
   main.cpp
-  containers.cpp
   Создание кода...
-  1.2 laba - oop.vcxproj -> C:\Users\Sultan.off\Documents\GitHub\oop\x64\Debug\1.2 laba - oop.exe
-  1.2 laba - oop.vcxproj -> C:\Users\Sultan.off\Documents\GitHub\oop\x64\Debug\1.2 laba - oop.pdb (Partial PDB)
+main.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+boxes.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+shapes.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+shares.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+tetraidr.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+Vboxes.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+Vshare.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+Vtetra.obj : error LNK2005: "public: virtual void __cdecl simple_shapes::shape::OutShare(class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?OutShare@shape@simple_shapes@@UEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z) уже определен в containers.obj
+C:\Users\Sultan.off\Desktop\Матковский\5\oop\x64\Debug\1.2 laba - oop.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

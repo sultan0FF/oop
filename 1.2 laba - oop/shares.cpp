@@ -1,15 +1,14 @@
 #include "share_atd.h"
 using namespace std;
+
 namespace simple_shapes {
 	// Ввод параметров шара
-	void share::InData(ifstream &ifst) 
+	void share::InData(ifstream &ifst)
 	{
 		ifst >> rad;
 		shape::InData(ifst);
 	}
-} // end simple_shapes namespace
-
-using namespace std;
+}
 namespace simple_shapes {
 	// Вывод параметров шара
 	void share::Out(ofstream &ofst)
@@ -19,10 +18,10 @@ namespace simple_shapes {
 		shape::Out(ofst);
 		ofst << endl;
 	}
-	}
+}
+	namespace simple_shapes {
 	void share::OutShare(ofstream &ofst) 
 	{
 		Out(ofst);
 	}
-
 } // end simple_shapes namespace

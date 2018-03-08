@@ -3,7 +3,6 @@
 // геометрических фигурах
 #include "box_atd.h"
 #include "share_atd.h"
-<<<<<<< HEAD
 #include "tetraidr_atd.h"
 #include "shape_atd.h"
 using namespace std;
@@ -11,46 +10,39 @@ using namespace std;
 
 namespace simple_shapes {
 
-	//----------------------------------------------------
 	// Ввод параметров фигуры
 	void shape::InData(ifstream &ifst) {
 		ifst >> temp;
 	}
-
-	//----------------------------------------------------
 	// Вывод параметров фигуры
 	void shape::Out(ofstream &ofst) {
 		ofst << "Melting point = " << temp << " °C " << endl;
 	}
 
-using namespace std;
-#include "shape_atd.h"
-
-namespace simple_shapes {
-	// Ввод параметров обобщенной фигуры 
-	shape* shape::In(ifstream &ifst) {
-		shape *sp;
-		int k;
-		ifst >> k;
-		switch (k) 
-		{
-		case 1:
-			sp = new box;
-			break;
-		case 2:
-			sp = new share;
-			break;
-		case 3:
-			sp = new tetraidr;
-			break;
-		default:
-			return 0;
+		// Ввод параметров обобщенной фигуры 
+		shape* shape::In(ifstream &ifst) {
+			shape *sp;
+			int k;
+			ifst >> k;
+			switch (k)
+			{
+			case 1:
+				sp = new box;
+				break;
+			case 2:
+				sp = new share;
+				break;
+			case 3:
+				sp = new tetraidr;
+				break;
+			default:
+				return 0;
+			}
+			sp->InData(ifst);
+			return sp;
 		}
-		sp->InData(ifst);
-		return sp;
-	}
-	bool shape::Compare(shape &other) {
-		return V() < other.V();
-	}
-} // end simple_shapes namespace
+		bool shape::Compare(shape &other) {
+			return V() < other.V();
+		}
+}; // end simple_shapes namespace
 
