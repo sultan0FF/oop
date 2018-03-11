@@ -113,47 +113,29 @@
     <ClInclude Include="container_atd.h" />
     <ClInclude Include="box_atd.h" />
     <ClInclude Include="shape_atd.h" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <ClInclude Include="tetraidr_atd.h" />
->>>>>>> 2-1
-=======
->>>>>>> 2-3
-=======
-    <ClInclude Include="tetraidr_atd.h" />
->>>>>>> 2-4
-=======
->>>>>>> 2-5
     <ClInclude Include="share_atd.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="boxes_MM.cpp" />
+    <ClCompile Include="boxes_MMBox.cpp" />
+    <ClCompile Include="boxes_MMShare.cpp" />
+    <ClCompile Include="boxes_MMTetra.cpp" />
     <ClCompile Include="containers.cpp" />
+    <ClCompile Include="container_MM.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <ClCompile Include="tetraidr.cpp" />
->>>>>>> 2-1
-=======
->>>>>>> 2-3
-    <ClCompile Include="shares.cpp" />
-=======
+    <ClCompile Include="shares_MM.cpp" />
+    <ClCompile Include="shares_MMBox.cpp" />
+    <ClCompile Include="shares_MMShare.cpp" />
+    <ClCompile Include="shares_MMTetra.cpp" />
     <ClCompile Include="tetraidr.cpp" />
     <ClCompile Include="shares.cpp" />
-    <ClCompile Include="Vboxes.cpp" />
-    <ClCompile Include="Vshare.cpp" />
-    <ClCompile Include="Vtetra.cpp" />
->>>>>>> 2-4
-=======
-    <ClCompile Include="shares.cpp" />
->>>>>>> 2-5
+    <ClCompile Include="tetras_MM.cpp" />
+    <ClCompile Include="tetras_MMBox.cpp" />
+    <ClCompile Include="tetras_MMShare.cpp" />
+    <ClCompile Include="tetras_MMTetra.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

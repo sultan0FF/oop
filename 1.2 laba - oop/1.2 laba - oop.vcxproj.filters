@@ -21,24 +21,9 @@
     <ClInclude Include="shape_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <ClInclude Include="tetraidr_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
->>>>>>> 2-1
-=======
->>>>>>> 2-3
-=======
-    <ClInclude Include="tetraidr_atd.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
->>>>>>> 2-4
-=======
->>>>>>> 2-5
     <ClInclude Include="box_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -56,44 +41,53 @@
     <ClCompile Include="shapes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <ClCompile Include="tetraidr.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
->>>>>>> 2-1
-=======
->>>>>>> 2-3
-=======
-    <ClCompile Include="tetraidr.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
->>>>>>> 2-4
-=======
->>>>>>> 2-5
     <ClCompile Include="boxes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="shares.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <ClCompile Include="Vboxes.cpp">
+    <ClCompile Include="boxes_MM.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Vshare.cpp">
+    <ClCompile Include="boxes_MMBox.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Vtetra.cpp">
+    <ClCompile Include="boxes_MMShare.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
->>>>>>> 2-4
-=======
->>>>>>> 2-5
+    <ClCompile Include="boxes_MMTetra.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="shares_MM.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="shares_MMShare.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="shares_MMBox.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="shares_MMTetra.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="tetras_MM.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="tetras_MMTetra.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="tetras_MMBox.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="tetras_MMShare.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="container_MM.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

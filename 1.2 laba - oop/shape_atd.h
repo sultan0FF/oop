@@ -7,30 +7,17 @@ namespace simple_shapes {
 	// Класс, обобщающает все имеющиеся фигуры.
 	// Является абстрактным, обеспечивая, тем самым, 
 	// проверку интерфейса 
-	class shape 
-	{
-	int temp;
 	class shape {
 	public:
 		// иденитфикация, порождение и ввод фигуры из пото-ка
 		static  shape* In(ifstream &ifst);
 		virtual void InData(ifstream &ifst) = 0;  // ввод
 		virtual void Out(ofstream &ofst) = 0;     // вывод
+		// мультиметод
+		virtual void MultiMethod(shape *other, ofstream &ofst) = 0;
+		virtual void MMBox(ofstream &ofst) = 0;
+		virtual void MMShare(ofstream &ofst) = 0;
+		virtual void MMTetraidr(ofstream &ofst) = 0;
 	};
-
-	protected:
-		shape() {};
-		//-------
-		virtual double V() = 0; // вычисление объема
-		//-------
-		bool Compare(shape &other);
-		//-------
-	};
-		virtual void OutShare(ofstream &ofst); // вывод только шаров
-	};
-	// Вывод данных только для прямоугольника
-		void shape::OutShare(ofstream &ofst) {
-			ofst << endl;  // пустая строка
-		}
 } // end simple_shapes namespace
 #endif

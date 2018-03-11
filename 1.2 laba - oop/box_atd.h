@@ -11,9 +11,10 @@ namespace simple_shapes {
 		// переопределяем интерфейс класса
 		void InData(ifstream &ifst);  // ввод
 		void Out(ofstream &ofst);    // вывод 
-		//------
-		double V(); // вычисление объема
-		//------
+		void MultiMethod(shape *other, ofstream &ofst);
+		void MMBox(ofstream &ofst);
+		void MMShare(ofstream &ofst);
+		void MMTetraidr(ofstream &ofst);
 		box() {} // создание без инициализации.
 	};
 } // end simple_shapes namespace

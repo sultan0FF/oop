@@ -36,7 +36,7 @@ int main()
 
 	simple_shapes::container* begin = new simple_shapes::container;
 	begin->In(in);
-	begin->Sort();
+	begin->MultiMethod(out);
 	begin->Out(out);
 
 	cout << "Stop" << endl;
